@@ -4,7 +4,7 @@ name: Build binaries for GitHub release
 
 on:
   release:
-    types: [edited, published]
+    types: [created, edited, published]
 
 permissions: read-all
 
